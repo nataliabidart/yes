@@ -1,0 +1,13 @@
+name: "yes"
+version: 0
+summary: yes is a Unix command
+description: yes is a Unix command, which outputs an affirmative response, or a user-defined string of text continuously until killed.
+
+apps:
+    "yes":
+        command: bin/yes
+
+parts:
+    main:
+        plugin: make
+        source: .
